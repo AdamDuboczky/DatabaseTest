@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseTest", "ConsoleApp1\DatabaseTest.csproj", "{17540478-597D-49A8-8FDE-E93ECCA55487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "WpfApp1\UI.csproj", "{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17540478-597D-49A8-8FDE-E93ECCA55487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17540478-597D-49A8-8FDE-E93ECCA55487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17540478-597D-49A8-8FDE-E93ECCA55487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17540478-597D-49A8-8FDE-E93ECCA55487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {796D5EC8-DACA-4151-9450-5A90AE3F0826}
+	EndGlobalSection
+EndGlobal
