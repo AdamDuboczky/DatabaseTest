@@ -35,7 +35,7 @@
                     <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*"/>
                     <DataGridTextColumn Header="Author" Binding="{Binding Author}" Width="*"/>
                     <DataGridTextColumn Header="Price(£)" Binding="{Binding Price}" Width="*" />
-                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
+                    <DataGridTextColumn Header="Quantity" Binding ="{Binding Quantity}" Width="*"/>
                 </DataGrid.Columns>
             </DataGrid>
  

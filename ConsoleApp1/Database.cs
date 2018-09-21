@@ -20,7 +20,7 @@ namespace ConsoleApp1
                                                     "database=" + databaseName + ";"    ;       
         }
 
-        public bool insert(Book book)
+        public bool Insert(Book book)
         {
             try
             {
@@ -45,7 +45,7 @@ namespace ConsoleApp1
 
         }
 
-        public List<Book> display()
+        public List<Book> Display()
         {
             try
             {

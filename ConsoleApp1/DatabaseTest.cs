@@ -13,7 +13,7 @@ namespace ConsoleApp1
         {
             var a = new Database("root","changeme","ebookshop");
 
-            a.display();
+            a.Display();
 
             Console.ReadLine();
 

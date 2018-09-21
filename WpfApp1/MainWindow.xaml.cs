@@ -37,11 +37,14 @@ namespace WpfApp1
 
             MessageBox.Show("Connected", "Database",MessageBoxButton.OK, MessageBoxImage.Information);
             MainPanel.Visibility = Visibility.Visible;
+
+            var a = DatabaseGrid.Columns;
+           
         }
 
         private void DisplayButtonClicked(object sender, RoutedEventArgs e)
         {
-            var databaseList = database.display();
+            var databaseList = database.Display();
             DatabaseGrid.ItemsSource = databaseList;
             DatabaseGrid.AutoGenerateColumns = false;
 
@@ -57,7 +60,7 @@ namespace WpfApp1
 
             if(result == true)
             {
-                database.insert(popUpBox.Book);
+                database.Insert(popUpBox.Book);
             }
 
         }
