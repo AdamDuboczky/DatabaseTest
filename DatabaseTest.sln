@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseTest", "ConsoleApp1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "WpfApp1\UI.csproj", "{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDatabase", "ClassLibrary1\BookDatabase.csproj", "{CC19CEE3-A275-435F-9B3D-7FA3BACFD182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2DB45F-A40C-4F13-B6AA-DA9DFCE30D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC19CEE3-A275-435F-9B3D-7FA3BACFD182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC19CEE3-A275-435F-9B3D-7FA3BACFD182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC19CEE3-A275-435F-9B3D-7FA3BACFD182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC19CEE3-A275-435F-9B3D-7FA3BACFD182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

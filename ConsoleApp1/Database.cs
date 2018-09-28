@@ -61,7 +61,7 @@ namespace ConsoleApp1
                 var bookList = new List<Book>();
                 while(reader.Read())
                 {
-                    //Console.WriteLine(reader.GetInt32(0) + ", " + reader.GetString(1) + ", " +  reader.GetString(2) + ", £" + reader.GetString(3) + ", " + reader.GetString(4));
+                    //Console.WriteLine(reader.GetInt32(0) + ", " + reader.GetString(1) + ", " +  reader.GetString(2) + ", " + reader.GetString(3) + ", " + reader.GetString(4));
                     bookList.Add(new Book(reader.GetString(1), reader.GetString(2), reader.GetDouble(3), reader.GetInt32(4)));
                 }
                 reader.Close();

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class DataEntry
+    public abstract class DataEntry 
     {
+        public abstract List<string> GenerateColumnNames();
+
     }
 }

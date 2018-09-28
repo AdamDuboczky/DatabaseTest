@@ -28,7 +28,7 @@ namespace WpfApp1
 
         private void InsertButtonClick(object sender, RoutedEventArgs e)
         {
-             Book = new ConsoleApp1.Book(TitleInput.Text = "a", AuthorInput.Text = "a" , Double.Parse(PriceInput.Text), int.Parse(QuantityInput.Text));
+             Book = new Book(TitleInput.Text = "a", AuthorInput.Text = "a" , Double.Parse(PriceInput.Text), int.Parse(QuantityInput.Text));
             DialogResult = true;
 
             

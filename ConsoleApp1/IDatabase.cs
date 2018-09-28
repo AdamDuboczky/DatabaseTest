@@ -6,13 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    interface IDatabase
+    interface IDatabase<T>
     {
-        void Insert();
 
-        void Display();
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entry"></param>
+        void Insert(T entry);
 
-        void GenerateDataColumns();
+        List<DataEntry> Display(T entry);
+
 
     }
 }
